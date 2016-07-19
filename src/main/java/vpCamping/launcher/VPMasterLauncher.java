@@ -19,13 +19,6 @@ public class VPMasterLauncher {
                MainController.start(CONFIG + index + EXTENTION);
             }
          });
-
-         System.out.println(i);
-      }
-
-      System.out.println("test");
-      while (true) {
-
       }
    }
 }
