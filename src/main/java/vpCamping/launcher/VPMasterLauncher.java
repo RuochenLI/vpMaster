@@ -8,7 +8,7 @@ import vpCamping.controller.MainController;
 public class VPMasterLauncher {
    private static final String CONFIG = "config";
    private static final String EXTENTION = ".properties";
-   private static final int TOTAL = 4;
+   private static final int TOTAL = 1;
 
    public static void main(String args[]) {
 
