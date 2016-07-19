@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/process/VPMaster.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/view/ParameterReader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/HelloWorld.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/controller/MainController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/controller/TimeFormatChecker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/launcher/VPLauncher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/launcher/VPMasterLauncher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/process/AddToCartPageLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/process/MainProcess.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/process/SalesPageLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/process/SubMenuPageLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/view/CredentialChecker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/view/MainWindow.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/view/ParameterReader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/vpCamping/view/ParameterReaderStat.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config0.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config1.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config2.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config3.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config4.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config5.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config6.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/12/config7.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/2016-07-20-12/config0.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/2016-07-20-12/config1.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/2016-07-20-12/config2.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/2016-07-20-12/config3.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/2016-07-20-12/config4.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config0.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config1.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config2.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config3.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config4.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config5.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/config6.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/log4j.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/log4j.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/VPMasterLauncherTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/classes/config0.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/classes/log4j.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/rtbi/cam-tools/src/main/resources/com/murex/rtbi/cam/tools/configuration.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/ide-tools/launchers/_servers-launcher/.pop-player/configuration.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/ide-tools/launchers/_servers-launcher/.pop-player/visual-analytics-service-config.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/dax/rtbi-ql-common/src/main/java/murex/rtbi/dax/common/RelationShipBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/integration-tests-ql/pop-integration-tests-ql-cam/src/test/java/murex/pop/cam/apps/subscription/RTBISubscriber.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/integration-tests-ql/pop-integration-tests-ql-cam/src/test/java/murex/pop/cam/apps/subscription/SubscriptionOnLimitViewTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/integration-tests-ql/pop-integration-tests-ql-cam/src/test/java/murex/pop/cam/apps/subscription/TradeSubscriptionCAMQLTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/integration-tests/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/integration-tests/pop-integration-tests-cam-dax/src/test/java/murex/pop/cam/dax/AbstractDaxCamDemoViewTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/integration-tests/pop-integration-tests-cam-dax/src/test/java/murex/pop/cam/dax/TransactionsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/rtbi/integration-tests/rtbi-integration-tests-cam-subscription/src/test/java/murex/pop/cam/subscription/SubscriptionOnLimitViewTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
