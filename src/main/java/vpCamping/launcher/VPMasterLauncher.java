@@ -7,8 +7,8 @@ import vpCamping.controller.MainController;
  */
 public class VPMasterLauncher {
    private static final String CONFIG = "config";
-   private static final String EXTENTION = ".properties";
-   private static final int TOTAL = 1;
+   private static final String EXTENSION = ".properties";
+   private static final int TOTAL = 4;
 
    public static void main(String args[]) {
 
@@ -16,7 +16,7 @@ public class VPMasterLauncher {
          final int index = i;
          java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-               MainController.start(CONFIG + index + EXTENTION);
+               MainController.start(CONFIG + index + EXTENSION);
             }
          });
       }
