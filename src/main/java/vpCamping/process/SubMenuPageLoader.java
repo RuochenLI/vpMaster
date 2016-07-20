@@ -73,8 +73,6 @@ public final class SubMenuPageLoader {
     */
    private static String getSubMenuLink(WebDriver webDriver, SaleParameters saleParameter, WebElement markMenu) throws NotFindSubMenuLinkException {
       List<WebElement> markList = markMenu.findElements(By.tagName("li"));
-//      Hashtable<String, String> dictMarkLink = new Hashtable<>();
-//      generateMarkLinkHashMap(webDriver, markList, dictMarkLink);
 
       for (WebElement element : markList) {
          WebElement hrefLink;
@@ -90,25 +88,13 @@ public final class SubMenuPageLoader {
          String markNameText = hrefLink.getText().toUpperCase();
          for (String expectedSubMenu : saleParameter.getExpectedSubMenuList()) {
             String expectedSubMenuFormatted = PageLoaderHelper.replaceSpaceAndAsterisk(expectedSubMenu).toUpperCase();
-            if (markNameText.matches(PageLoaderHelper.ANY_STRING + expectedSubMenuFormatted + PageLoaderHelper.ANY_STRING)) {
+             if (markNameText.matches(PageLoaderHelper.ANY_STRING + expectedSubMenuFormatted + PageLoaderHelper.ANY_STRING) ||
+              markNameText.matches(PageLoaderHelper.ANY_STRING + expectedSubMenu.toUpperCase() + PageLoaderHelper.ANY_STRING)) {
                return markLink;
             }
          }
 
-//         dictMarkLink.put(markNameText, markLink);
       }
-
-//      final Set<String> markSet = dictMarkLink.keySet();
-//      for (String expectedSubMenu : saleParameter.getExpectedSubMenuList()) {
-//         Iterator<String> markIterator = markSet.iterator();
-//         String expectedSubMenuFormatted = PageLoaderHelper.replaceSpaceAndAsterisk(expectedSubMenu).toUpperCase();
-//         while (markIterator.hasNext()) {
-//            String markNameText = markIterator.next().toUpperCase();
-//            if (markNameText.matches(PageLoaderHelper.ANY_STRING + expectedSubMenuFormatted + PageLoaderHelper.ANY_STRING)) {
-//               return dictMarkLink.get(markNameText);
-//            }
-//         }
-//      }
 
       throw new NotFindSubMenuLinkException("There is no sub menu under this mark");
    }
