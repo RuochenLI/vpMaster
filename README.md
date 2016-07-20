@@ -11,3 +11,4 @@ you are so lovely! </p>
 <h2>How to use it?</h2>
 <h3>Configuration file</h3>
 <p>The configuration files can be found in the resource folder, named config + index.properties.</p>
+<p>The index should be from 0 to n. It should be as same as the total number of threads that you want to run and don't forget to modify the TOTAL in VPMasterLauncher</p>
