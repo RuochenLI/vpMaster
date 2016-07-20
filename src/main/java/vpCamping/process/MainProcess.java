@@ -1,15 +1,14 @@
 package vpCamping.process;
 
-import java.util.Calendar;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import vpCamping.object.SaleParameters;
 import vpCamping.object.TimeParameters;
 import vpCamping.object.UserParameters;
+
+import java.util.Calendar;
 
 
 /**
@@ -56,7 +55,7 @@ public final class MainProcess extends Thread {
     */
    public void process() {
       LOGGER.info("My dear master Ruochen LI, I am your personal VP assistant! The target is " + saleParameter.getExpectedMarkValue());
-//      SystemController.setAutoShutDown(timeParameter);
+      SystemController.setAutoShutDown(timeParameter);
       Calendar startTime = MainPageLoader.loginMainPage(webDriver, timeParameter, userParameter);
       SalesPageLoader.loadSalesPage(webDriver, saleParameter, timeParameter);
       SubMenuPageLoader.loadSubMenuPage(webDriver, saleParameter, timeParameter);

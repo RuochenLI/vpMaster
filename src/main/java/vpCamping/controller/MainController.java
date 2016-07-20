@@ -4,18 +4,17 @@
  */
 package vpCamping.controller;
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Properties;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import vpCamping.object.SaleParameters;
 import vpCamping.object.TimeParameters;
 import vpCamping.object.UserParameters;
 import vpCamping.process.MainProcess;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.Properties;
 
 /**
  *
@@ -33,6 +32,9 @@ public class MainController {
     private static final String START_DAY = "START_DAY";
     private static final String START_HOUR = "START_HOUR";
     private static final String START_MINUIT = "START_MINUIT";
+    private static final String SHUT_DOWN_HOUR = "SHUT_DOWN_HOUR";
+    private static final String SHUT_DOWN_MIN = "SHUT_DOWN_MIN";
+    private static final String SHUT_DOWN_ACTIVE = "SHUT_DOWN_ACTIVE";
 
     public static void start(String configFile) {
 
@@ -67,6 +69,12 @@ public class MainController {
         timeParaBuilder.withStartDay(Integer.valueOf(properties.getProperty(START_DAY)));
         timeParaBuilder.withStartHour(Integer.valueOf(properties.getProperty(START_HOUR)));
         timeParaBuilder.withStartMinute(Integer.valueOf(properties.getProperty(START_MINUIT)));
+
+        String shutdownActivation = properties.getProperty(SHUT_DOWN_ACTIVE);
+        if (shutdownActivation != null && Boolean.valueOf(shutdownActivation).equals(true)) {
+            timeParaBuilder.withShutDownHour(Integer.valueOf(properties.getProperty(SHUT_DOWN_HOUR)));
+            timeParaBuilder.withShutDownMinute(Integer.valueOf(properties.getProperty(SHUT_DOWN_MIN)));
+        }
         int refreshTimeInt = 3;
         return timeParaBuilder.withRefreshTime(refreshTimeInt).build();
     }
