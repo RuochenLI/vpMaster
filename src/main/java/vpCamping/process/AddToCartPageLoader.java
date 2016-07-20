@@ -1,17 +1,12 @@
 package vpCamping.process;
 
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import vpCamping.object.SaleParameters;
+
+import java.util.List;
 
 /**
  * Created by ruli on 7/21/15.
@@ -102,14 +97,14 @@ public final class AddToCartPageLoader {
             try {
                confirmBouton.click();
             } catch (Exception e) {
-               LOGGER.error(e.getMessage(), e);
+               LOGGER.error(e.getMessage());
             }
 
          }
          purchaseInfo.addValue(value);
          purchaseInfo.addOriginalValue(originalValue);
       } catch (NoSuchElementException  e) {
-         LOGGER.info("Sorry, I didn't find confirm button", e);
+         LOGGER.info("Sorry, I didn't find confirm button");
       }
 
       return temp;
