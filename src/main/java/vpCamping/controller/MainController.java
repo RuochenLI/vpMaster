@@ -72,6 +72,7 @@ public class MainController {
 
         String shutdownActivation = properties.getProperty(SHUT_DOWN_ACTIVE);
         if (shutdownActivation != null && Boolean.valueOf(shutdownActivation).equals(true)) {
+            timeParaBuilder.withIsShutDownActivated(true);
             timeParaBuilder.withShutDownHour(Integer.valueOf(properties.getProperty(SHUT_DOWN_HOUR)));
             timeParaBuilder.withShutDownMinute(Integer.valueOf(properties.getProperty(SHUT_DOWN_MIN)));
         }
