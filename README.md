@@ -8,4 +8,6 @@ you are so lovely! </p>
 
 <p> The project aims to help you to bring interesting products in your baskets!</p>
 
-<h2>How</h2>
+<h2>How to use it?</h2>
+<h3>Configuration file</h3>
+<p>The configuration files can be found in the resource folder, named config + index.properties.</p>
