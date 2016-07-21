@@ -6,8 +6,7 @@ you are so lovely! Be happy is the most important!!! like me:)</p>
 
 <p> The project aims to help you to keep smiling :) and to grab interesting items in your baskets!</p>
 
-<h2>How to use it?</h2>
-<h3>Configuration file</h3>
+<h2>How to configurate?</h2>
 <p>The configuration files can be found in the resource folder, named config + index.properties.</p>
 <p>The index should be from 0 to n. It should be as same as the total number of threads that you want to run and don't forget to modify the TOTAL in VPMasterLauncher</p>
 
@@ -24,6 +23,10 @@ you are so lovely! Be happy is the most important!!! like me:)</p>
 </ul>
 
 <p>An example of configuration file can be found in the vpMaster/src/main/resources/config0.properties </p>
+
+<h2>How to run?</h2>
+<p>Once you defined your configuration files you should modify the constant of TOTAL in VPMasterLauncher, which is the number of your configuration files and then run your VPMasterLauncher!</p>
+<p>Don't forget to check your basket in 15 mins! if there isn't any unexpected exceptions... I agree it is still a beta version for the moment.</p>
 
 <h2>Question?</h2>
 <p>Feel free to contact me by ruochen.li1204@gmail.com :p keep calm and smile:)</p>
