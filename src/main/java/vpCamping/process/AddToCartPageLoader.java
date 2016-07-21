@@ -101,8 +101,7 @@ public final class AddToCartPageLoader {
             }
 
          }
-         purchaseInfo.addValue(value);
-         purchaseInfo.addOriginalValue(originalValue);
+
       } catch (NoSuchElementException  e) {
          LOGGER.info("Sorry, I didn't find confirm button");
       }
@@ -116,9 +115,13 @@ public final class AddToCartPageLoader {
          boolean isFound = searchForRightSize(saleParameter, options, optionIndex);
          if (isFound && purchaseInfo.getNbItem() < MainProcess.MAX_TOTAL_ITEM) {
             selectItems.selectByIndex(optionIndex);
-            confirmBouton.click();
-            purchaseInfo.incrementItem();
-            return;
+            try {
+               confirmBouton.click();
+               purchaseInfo.incrementItem();
+            } catch (Exception e) {
+               LOGGER.error(e.getMessage());
+            }
+
          }
       }
    }
