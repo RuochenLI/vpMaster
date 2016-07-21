@@ -6,7 +6,7 @@ you are so lovely! Be happy is the most important!!! like me:)</p>
 
 <p> The project aims to help you to keep smiling :) and to grab interesting items in your baskets!</p>
 
-<h2>Functions supported</h2>
+<h2>Functions support(ed)</h2>
 <ul>
 <li>Reserve products on specified time</li>
 <li>Shut down computer on specified time</li>
