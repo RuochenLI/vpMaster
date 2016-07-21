@@ -6,6 +6,15 @@ you are so lovely! Be happy is the most important!!! like me:)</p>
 
 <p> The project aims to help you to keep smiling :) and to grab interesting items in your baskets!</p>
 
+<h2>Functions supported</h2>
+<ul>
+<li>Reserve products on specified time</li>
+<li>Shut down computer on specified time</li>
+<li>TODO: Hold products</li>
+<li>TODO: Data collection</li>
+<li>TODO: BI analyse dashboard</li>
+</ul>
+
 <h2>How to configurate?</h2>
 <p>The configuration files can be found in the resource folder, named config + index.properties.</p>
 <p>The index should be from 0 to n. It should be as same as the total number of threads that you want to run and don't forget to modify the TOTAL in VPMasterLauncher</p>
