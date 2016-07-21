@@ -21,4 +21,8 @@ you are so lovely! </p>
 <li>MARKS:the mark you are interested in</li>
 <li>SUB_MENUS:key word of sub menu of the mark, such as homme, femme etc(the more accurate you set the sub menu, the more products you get
 <li>SIZE:possible sizes you want</li>
+<li>SHUT_DOWN_ACTIVE:if you wanto shut down your computer automatically after camp</li>
+<li>SHUT_DOWN_HOUR,SHUT_DOWN_MIN: the time you want your computer to shut down. it will be activated only if SHUT_DOWN_ACTIVE=true</li>
 </ul>
+
+<p>An example of configuration file can be found in the vpMaster/src/main/resources/config0.properties </p>
