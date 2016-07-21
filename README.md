@@ -4,7 +4,7 @@
 As long as you enter into the Camp, nothing available!!! Disappointed? Don't be like that. I'd like to see your smiling face, 
 you are so lovely! Be happy is the most important!!! like me:)</p>
 
-<p> The project aims to help you to keep smiling :) and grab interesting items in your baskets!</p>
+<p> The project aims to help you to keep smiling :) and to grab interesting items in your baskets!</p>
 
 <h2>How to use it?</h2>
 <h3>Configuration file</h3>
