@@ -13,6 +13,7 @@ you are so lovely! Be happy is the most important!!! like me:)</p>
 <li>TODO: Hold products</li>
 <li>TODO: Data collection</li>
 <li>TODO: BI analyse dashboard</li>
+<li>TODO: User interface</li>
 </ul>
 
 <h2>How to configurate?</h2>
