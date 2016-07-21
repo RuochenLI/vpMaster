@@ -24,3 +24,6 @@ you are so lovely! Be happy is the most important!!! like me:)</p>
 </ul>
 
 <p>An example of configuration file can be found in the vpMaster/src/main/resources/config0.properties </p>
+
+<h2>Question?</h2>
+<p>Feel free to contact me by ruochen.li1204@gmail.com :p keep calm and smile:)</p>
