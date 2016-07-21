@@ -1,11 +1,10 @@
 package vpCamping.process;
 
-import java.util.Calendar;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import vpCamping.object.TimeParameters;
+
+import java.util.Calendar;
 
 /**
  * Created by ruli on 7/21/15.
@@ -27,7 +26,6 @@ public final class TimeChecker {
             now = Calendar.getInstance();
             started = checkSaleStarted(now, startHour, startMinute, startMonth, startDay);
             Thread.sleep(refreshTime * 1000);
-            System.out.println("SLEEP::" + now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE) + ":" + now.get(Calendar.SECOND));
          }
          Thread.sleep(timeParameter.getRefreshTime() * 1000);
       } catch (InterruptedException ignored) {

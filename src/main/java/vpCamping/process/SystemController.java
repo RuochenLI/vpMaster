@@ -50,7 +50,7 @@ public class SystemController {
    }
 
    private static void shutDownProcess(long shutDownHour, long shutDownMinute, String shutDownHourString, String shutDownMinuteString) {
-      String cmd = "schtasks /create /tn "+TASK_NAME+" /st " + shutDownHourString + ":" + shutDownMinuteString + " /sc ONCE /tr \"shutdown /s /t 30 /f\"";
+      String cmd = TASK_NAME + " shut down at " + shutDownHourString + ":" + shutDownMinuteString;
       System.out.println("SHUT DOWN SET AT: " +cmd + " "+ shutDownHour + ":" + shutDownMinute);
       Runtime runTime = Runtime.getRuntime();
       try {
