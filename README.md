@@ -16,6 +16,13 @@ you are so lovely! Be happy is the most important!!! like me:)</p>
 <li>TODO: User interface</li>
 </ul>
 
+<h2>Prerequirement</h2>
+<ul>
+<li>Maven</li>
+<li>jdk7</li>
+<li>Firefox</li>
+</ul>
+
 <h2>How to configurate?</h2>
 <p>The configuration files can be found in the resource folder, named config + index.properties.</p>
 <p>The index should be from 0 to n. It should be as same as the total number of threads that you want to run and don't forget to modify the TOTAL in VPMasterLauncher</p>
