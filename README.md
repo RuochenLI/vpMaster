@@ -1,8 +1,7 @@
 <h2>Why this project</h2>
 
 <p> If you are a big fun of Vente Privé, you must know the Camp(winter/summer camp). All the products are extremly fucking cheap! (sorry for the dirty word...) 
-As long as you enter into the Camp, nothing available!!! Disappointed? Don't be like that. I'd like to see your smiling face, 
-you are so lovely! Be happy is the most important!!! like me:)</p>
+As long as you enter into the Camp, nothing available!!! Disappointed? Don't be like that. Keep smiling. :)</p>
 
 <p> The project aims to help you to keep smiling :) and to grab interesting items in your baskets!</p>
 
